@@ -22,3 +22,9 @@ print("The x is a", type(x))
 
 y = str(y)
 print("The y is a",type(y))
+
+# What if the string is not an integer lets check
+str2 = "anand"
+# This would generate an error for the literal
+# str2 = int(str2)
+print(str2)
