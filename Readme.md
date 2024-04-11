@@ -29,8 +29,5 @@ Here are some additional resources to aid your Python learning journey:
 - [Python Tutor](https://pythontutor.com/): An interactive tool for visualizing Python code execution, which can be helpful for understanding how code works.
 - [Real Python](https://realpython.com/): A website offering tutorials, articles, and resources for Python programmers of all levels.
 
-## License
-
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code and resources for your personal or commercial projects.
 
 Happy coding!

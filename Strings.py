@@ -25,4 +25,9 @@ print(name.isalpha())
 # To count the occurence of a value in a string count is used
 print(name.count('a'))
 
-# To replace a particular variable in 
+# To replace a particular variable in string replace method is used 
+print(name.replace('a','b'))
+
+# To print the string multiple times it can be multiplied as well
+print(name*3)
+
