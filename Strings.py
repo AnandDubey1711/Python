@@ -22,5 +22,7 @@ print(name.isdigit())
 # To check if the string contains only character or not
 print(name.isalpha())
 
-# To count the occurence of a value in a string
+# To count the occurence of a value in a string count is used
 print(name.count('a'))
+
+# To replace a particular variable in 
