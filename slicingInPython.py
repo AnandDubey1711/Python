@@ -17,7 +17,17 @@ print(funkyName)
 
 # To reverse a string we can just provide the step index as -1
 reverseName = name[::-1]
-print(reverseName)
+revStepName = name[::-2]
 
-#Slice function
+print(reverseName)
+print(revStepName)
+
+
+# Slice function
 # Lets take a website for this 
+# For this we have first taken a link and then slice is used to create a particular start and end index
+# Then the slicing indexes are applied to the website which eventually returns the sliceed string
+website = "http://google.com"
+
+slice = slice(7,-4)
+print(website[slice])
