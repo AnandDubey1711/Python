@@ -13,3 +13,17 @@ for items in student:
 # Using conditionals with tuples
 if "Bro" in student:
     print("Bro Code does exists")
+
+if "Male" in student:
+    print("Gender is also mentioned")
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def __str__(self):
+        return f"{self.name}({self.age})"
+
+P = Person("Anand", 21)
+print(P)
