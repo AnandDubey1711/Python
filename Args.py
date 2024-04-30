@@ -13,3 +13,11 @@ def add(*stuff):
 # We can name the param based on requirements
 print(add(1,2,45,23,23))
 
+def sub(*val):
+    sum = 0
+    for i in val:
+        sum-=i
+    return sum
+
+print(sub(12,1,234,23,2))
+

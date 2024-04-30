@@ -13,3 +13,7 @@ print("The {1} jumped over the {0}".format(animal, item))
 # leaving the space for the input using the format method
 text = "The {} jumped over the {}"
 print(text.format(animal, item))
+
+statement = "Youtube is a {} platform"
+print(statement.format('streaming'))
+print(statement.format('social media'))

@@ -10,3 +10,15 @@ def hello(**kwargs):
         print(key) # print the key [first, second, last]
 
 hello(first='Bro', middle='Dude' ,last='code')
+
+
+def sum(**kwargs):
+    print(kwargs['val1']+ kwargs['val2']+ kwargs['val3'] ,end=" ")
+
+sum(val1=2, val2=3, val3=45)
+
+number = 3.123234
+num = 1000
+print('The number pi is {:.2f}'.format(number))
+# printing as an octal number
+print('The number in octal format is {:o}'.format(num))
