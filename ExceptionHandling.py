@@ -15,3 +15,5 @@ except Exception as e:
     print("Something went wrong")
 else:
     print("{:.2f}".format(result))
+finally:
+    print("This will always exceute ")
