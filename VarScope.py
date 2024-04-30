@@ -10,4 +10,9 @@ def sum():
     a = 5
     return a*a
 
+def display_name():
+    name = "Bro Code" # Only available inside the function not outside as it has only a local scope
+    print(name)
+
+print(display_name())
 print(sum())

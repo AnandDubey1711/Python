@@ -1,11 +1,15 @@
 # Set : A set is a collection which is unordered, unindexed. No duplicate values
 
 utensils = {"Fork","Plates","Knife"}
+tables = {"Round","Square","Spherical"}
 dishes = {"Bowl","Plate","Cup"}
 print(utensils)
 print(dishes)
+print(tables)
 # To add an item to set
 utensils.add("Napkin")
+tables.add("Round")
+print(tables)
 
 # To remove an item from the set
 utensils.remove("Fork")
