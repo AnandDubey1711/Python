@@ -11,9 +11,18 @@ print("Hello World")
 # Number, String, Boolean, Float, 
 
 name = "Anand" # String
+# Another way is to assign the string with the data type while initializing the variable
+name: str = "Anand"
+
 age = 23 # Integer
+age: int = 23
+
 isPass = True #boolean
+isPass : bool = False
+
 percentage = 85.34 # float
+percentage: float = 85.23
+
 grade = 'A' # String as well as there is not any separate type of the Character type
 
 
